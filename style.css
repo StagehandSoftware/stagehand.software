@@ -1,13 +1,13 @@
 @font-face {
     font-family: dubba-dubba;
-    src: url("../stagehand.software/dubba-dubba.ttf") format('truetype');
+    src: url("./dubba-dubba.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: voltaire;
-    src: url("../stagehand.software/voltaire.otf") format('opentype');
+    src: url("./voltaire.otf") format('opentype');
     font-weight: bold;
     font-style: normal;
 }
