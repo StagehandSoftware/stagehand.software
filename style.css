@@ -1,0 +1,60 @@
+@font-face {
+    font-family: dubba-dubba;
+    src: url("../stagehand.software/dubba-dubba.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: voltaire;
+    src: url("../stagehand.software/voltaire.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: voltaire;
+    font-size: 2em;
+}
+
+img {
+    margin-top: -7.5%;
+}
+
+body {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div {
+    align-content: center;
+    align-self: center;
+}
+
+h1, h2, h3, img {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+h1 {
+    font-family: dubba-dubba;
+    font-size: 3em;
+    margin: 0;
+    margin-top: -0.75em;
+}
+
+h2 {
+    font-family: dubba-dubba;
+    font-size: 2em;
+    margin: 0;
+}
+
+a {
+    color: #D60000;
+}
