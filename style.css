@@ -1,6 +1,6 @@
 @font-face {
-    font-family: dubba-dubba;
-    src: url("./dubba-dubba.ttf") format('truetype');
+    font-family: dihjauti-bold;
+    src: url("./Dihjauti-Bold.ttf") format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -15,7 +15,7 @@
 html {
     background-color: black;
     color: white;
-    font-family: voltaire;
+    font-family: dihjauti;
     font-size: 2em;
 }
 
@@ -29,7 +29,9 @@ header {
 }
 
 img {
-    margin: -1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -50,6 +52,14 @@ article p {
     margin: 2em;
 }
 
+article h3, h4 {
+    text-align: center;
+}
+
+article h3 {
+    margin: 2em;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -59,12 +69,7 @@ footer {
     text-align: center;
 }
 
-img {
-    align-content: center;
-    align-self: center;
-}
-
-h1, h2, h3, img {
+h1, h2, h3, h4, img {
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -72,13 +77,13 @@ h1, h2, h3, img {
 }
 
 h1 {
-    font-family: dubba-dubba;
+    font-family: dihjauti;
     font-size: 3em;
     margin: 0;
 }
 
 h2 {
-    font-family: dubba-dubba;
+    font-family: dihjauti;
     font-size: 2em;
     margin: 0;
 }
@@ -89,4 +94,11 @@ h3 {
 
 a {
     color: #D60000;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
